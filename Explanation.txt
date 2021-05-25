@@ -1,0 +1,17 @@
+Included are 5 python notebooks as .ipynb files:
+-Applied_Quant_Finance
+-BNN
+-FBNN
+-GBNN
+-GFBNN
+
+The applied quant finance notebook contains the AH-BS, Heston and SVR model, as well as general code for testing and plotting. The rest of the file names are self-explanatory.
+Although the notebooks can be executed on their own provided that the data is imported correctly, and give results similar to those in the paper, these files are added more for the sake of completeness and to give an overview of the code.
+
+Some remarks:
+-The output saved in the files is not necessarily the output used as results for the paper
+-During the writing we renamed some models/parameters, which is not fully changed accordingly in the code
+-Some smaller experiment results (e.g. the varying lambda) are not included in this code, but all the main results are
+-We experimented a bit with the VIX index, but this didn't make the report, however one could encounter some VIX related things in the data/code
+
+If there are any questions, or further explanation is necessary feel free to ask us!
